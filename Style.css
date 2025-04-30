@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#mmorpg-games-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.game-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.game-info {
+  padding: 15px;
+}
+
+.game-info h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.game-info p {
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.game-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.game-info a:hover {
+  text-decoration: underline;
+}
